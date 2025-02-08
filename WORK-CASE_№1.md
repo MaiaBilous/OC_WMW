@@ -33,8 +33,11 @@ git commit -m ‘commit changes’ (Commits (saves) changes to the local reposit
 
 2. Що таке "комміт", як він дозволяє відслідковувати зміни у файлах?
    
-_відповідь_
+Це команда,за допомогою якої ми зберігаємо зміни.
+Кожен комміт містить інформацію про внесені зміни, дату, автора та унікальний ідентифікатор (хеш).
 
+This is a command used to save changes.
+Each commit contains information about the changes made, date, author, and a unique identifier (hash).
 
 > Виконувала Білус Майя
 
