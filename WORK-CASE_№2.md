@@ -11,15 +11,19 @@
 3. 
 
 We need to download distributive which we preferred (in my case latest Ubuntu version)
-![alt text](image-1.png)
+![image](https://github.com/user-attachments/assets/8474329b-8f6e-4c35-86e4-04e0872120a2)
+
 After downloading VisualBox we gonna create new VM by clicking "New"
-![alt text](image.png)
+![image](https://github.com/user-attachments/assets/184ae899-ee72-4c70-a501-821a6914a92a)
+
 In "ISO image " we choosing our file "ubuntu" and we will see,thats type change to "Linux"
-![alt text](image-2.png)
+![image](https://github.com/user-attachments/assets/2d405348-2b74-47b8-b0bd-2409da1762c1)
+
 An than we have to configure our VM.(By creating username,password)
-![alt text](image-3.png)
-Then we could configure our "memory" settings. Choosed 2 CPU and 2048 base memory with 20 gb of disk size(on virtual machine)
-And then we installing ubuntu
-![alt text](image-4.png)
+![image](https://github.com/user-attachments/assets/9042e39b-107a-49ee-9be6-03d58884ba31)
+
+Then we could configure our "memory" settings. Choosed 2 CPU and 2048 base memory with 20 gb of disk size(on virtual machine) And then we installing ubuntu
+
+![image](https://github.com/user-attachments/assets/e497d6a3-a00f-44d7-a051-67a66d9b065c)
 
 > Виконувала Танєєва Анастасія
