@@ -35,4 +35,35 @@
 
 > Виконував
 
-> Виконував
+> Виконував Коломієць Артем
+4. Яким чином можна організувати обмін інформацією між вашою основною ОС (наприклад Windows) 
+та віртуальними ОС? Скопіюйте довільний аудіо-файл з вашої основної ОС на робочий стіл віртуальної
+ОС та її клона. Як зробити зворотну дію, коли треба документ з робочого столу віртуальної ОС скопіювати до вашої основної робочої ОС?
+(Virtual Box,ubuntu.)
+
+1.
+First, you need to create a shared folder.
+Create a shared folder in the VirtualBox settings
+Virtual Box settings - Shared folders - Machine folders
+Click on the folder with a plus sign (Add new shared Folder)
+
+Click Add New Shared Folder (folder icon with a plus sign).
+Select the folder (C:\1234\prgm\shared_WMW).
+Next, in the Mount Point field, specify the path to the file
+Enable the Auto-mount and Make Permanent options.
+start the virtual machine. 
+Connecting a shared folder in Ubuntu
+you need to use the command 
+
+sudo mount -t vboxsf ( name of shared folder in virtual box) (path)
+sudo mount -t vboxsf shared_WMW /mnt/shared_WMW
+Copy the audio file to the virtual OS 
+
+cp /mnt/shared_WMW/audio.mp3 ~/Desktop/
+
+2.
+Copy a document from the virtual OS to the main OS
+Move the document to the shared folder:
+
+cp ~/Desktop/OC_WMW_text.txt /mnt/shared_WMW/
+open C:\1234\prgm\shared_WMW and find OC_WMW_text.txt 
