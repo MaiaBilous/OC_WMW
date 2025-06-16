@@ -33,7 +33,21 @@
 ![telegram-cloud-photo-size-2-5375587978732239102-x](https://github.com/user-attachments/assets/efba4ada-d37b-4582-be8e-ede84c85892e)
 
 
-> Виконував
+> Виконувала Танєєва Анастасія
+
+2. Визначте який менеджер пакетів використовує ваш дистрибутив Linux. Опишіть основні команди для роботи з ним:
+
+2.1 Пошук, скачування та установка пакетів
+
+*Searching for a package: **apt search <package_name>**
+*Installing a package: **sudo apt install <package_name>**
+*Adding a new repository: **sudo add-apt-repository ppa:<name>
+sudo apt update**
+*Installing from a local .deb package: **sudo dpkg -i <file.deb>
+sudo apt install -f**
+
+2.2 Перегляд інформації про встановлені та доступні пакети.
+
 
 > Виконував Коломієць Артем
 4. Яким чином можна організувати обмін інформацією між вашою основною ОС (наприклад Windows) 
