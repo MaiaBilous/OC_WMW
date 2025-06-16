@@ -6,6 +6,22 @@
 
 - Дайте розгорнуте визначення таким поняттям як «пакет» та «репозиторій».
 
+  In the context of Linux operating systems, a package is a standardized archive file that contains all the necessary components to install, update, or remove a particular piece of software. It is not simply an executable file, but a complete set that usually includes:
+
+Executable code: The actual program or libraries.
+Libraries: Additional files that the program uses to run, but which may be common to many programs.
+Configuration files: Program settings.
+Documentation: Instructions, help files, licenses.
+Metadata: Information about the package itself, such as its name, version, description, developer, size, checksums (for integrity checking), and, most importantly, dependencies.
+Dependencies are a list of other packages that must be installed on the system for the given package to work correctly. For example, a word processor may depend on a certain graphics library. The package manager automatically tracks and installs these dependencies.
+
+Advantages of using packages:
+Simplified installation: Programs are installed with a single command.
+Dependency management: Automatically resolve conflicts and install required libraries.
+Easy update: Update all programs on the system with a single command.
+Clean uninstall: Remove a program and its files without leaving "garbage" in the system.
+Integrity check: Protect against corrupted files.
+
 A repository is a centralized, usually remote, Internet-based repository that contains an organized collection of software packages, their metadata, and digital signatures. It is the primary source of software for an operating system.
 
 Key characteristics of repositories:
